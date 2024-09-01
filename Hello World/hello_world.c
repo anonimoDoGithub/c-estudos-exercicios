@@ -1,4 +1,4 @@
-#include <stdio.h> // .h são bibliotecas
+#include <stdio.h> // .h são bibliotecas | stdio.h - rotinas padrão de (in)entrada e (out)saída definidas pelos criadores da linguagem C.
 
 int main(){ // função main() é nosso ponto de partida, quando vc roda o programa a primeira coisa que ele é executar o que está na main()
     printf("\n###############\n"); // sempre colocar ;
