@@ -5,8 +5,8 @@ int main(){ // função main() é nosso ponto de partida, quando vc roda o progr
     printf("# Hello World #\n"); // \n é ENTER ;
     printf("###############\n");
 
-    int idadeDoPlaneta = 4;
-    printf("O planeta Terra tem mais de %d bilhoes de anos.", idadeDoPlaneta); // %d para número INTEIRO (me deixa trocar "aquele local" pela variável)
+    int idadeDoPlaneta = 5;
+    printf("O planeta Terra, tem mais aproximadamente %d bilhoes de anos.", idadeDoPlaneta); // %d para número INTEIRO (me deixa trocar "aquele local" pela variável)
 
     int anoAtual;
     printf("\nEm que ano estamos? \n");
@@ -16,7 +16,7 @@ int main(){ // função main() é nosso ponto de partida, quando vc roda o progr
     int idadeUser;
     printf("\nMe fale, qual a sua idade hoje? \n");
     scanf("%d", &idadeUser); // scanf pega o valor digitado
-    printf("Legal vc tem, %d anos de idade.", idadeUser);
+    printf("Legal, vc tem %d anos de idade.", idadeUser);
 
     int humano;
     printf("\nVoce e um humano: (1)sim ou (2)nao? \n");
