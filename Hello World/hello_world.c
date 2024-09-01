@@ -22,13 +22,12 @@ int main(){ // função main() é nosso ponto de partida, quando vc roda o progr
     printf("\nVoce e um humano: (1)sim ou (2)nao? \n");
     scanf("%d", &humano);
     if(humano == 1){
-        printf("Fico feliz em saber que o humanos, estao vivos! \n");
+        printf("Fico feliz em saber que os humanos, estao vivos! \n");
     }
-    else if (humano == 2)
-    {
+    else if(humano == 2){
         printf("Que pena, pensei que estava falando com um humano!");
     }
-    else {
+    else{
         printf("Nao compreendi!");
     }
     
