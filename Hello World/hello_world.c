@@ -6,7 +6,7 @@ int main(){ // função main() é nosso ponto de partida, quando vc roda o progr
     printf("###############\n");
 
     int idadeDoPlaneta = 4;
-    printf("O planeta Terra tem mais de %d bilhoes de anos.", idadeDoPlaneta); // %d para número INTEIRO
+    printf("O planeta Terra tem mais de %d bilhoes de anos.", idadeDoPlaneta); // %d para número INTEIRO (me deixa trocar "aquele local" pela variável)
 
     int anoAtual;
     printf("\nEm que ano estamos? \n");
