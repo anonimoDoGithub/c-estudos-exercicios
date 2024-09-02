@@ -14,7 +14,7 @@ int main(){
 
     printf("Digite a nota B: \n");
     scanf("%f", &notaB);
-    printf("Nota A: %0.1f \n \n", notaB);
+    printf("Nota B: %0.1f \n \n", notaB);
 
     printf("Digite a nota C: \n");
     scanf("%f", &notaC);
