@@ -8,7 +8,7 @@ Se a operação não for reconhecida, exiba uma mensagem de erro.
 
 int main(){
 
-int numero1, numero2, operacao, soma;
+int numero1, numero2, operacao, soma, sub, mult, div;
 
 printf("Digite um numero: ");
 scanf("%d", &numero1);
@@ -27,6 +27,24 @@ case 1:
     soma = numero1 + numero2;
     printf("Operacao escolhida: SOMA.\n");
     printf("Resultado: %d + %d = %d\n", numero1, numero2, soma);
+    break;
+
+case 2:
+    sub = numero1 - numero2;
+    printf("Operacao escolhida: SUBTRACAO.\n");
+    printf("Resultado: %d - %d = %d\n", numero1, numero2, sub);
+    break;
+
+case 3:
+    mult = numero1 * numero2;
+    printf("Operacao escolhida: MULTIPLICACAO.\n");
+    printf("Resultado: %d * %d = %d\n", numero1, numero2, mult);
+    break;
+
+case 4:
+    div = numero1 / numero2;
+    printf("Operacao escolhida: DIVISAO.\n");
+    printf("Resultado: %d / %d = %d\n", numero1, numero2, div);
     break;
 
 default:
